@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(diff2_fold)
+include_directories("./client")
+#include_directories("${./client_server/client}")
+file(GLOB SOURCES  "client.c" )
+add_executable(cli ${SOURCES})
