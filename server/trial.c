@@ -21,6 +21,7 @@ int main()
 
 	}
 	printf("\n %d \n",value);
+	printf("\n %d \n",value);
 	char exp[] = "4+     1";
     printf ("remove spaces: %s \n", remove_white_spaces(exp));
     //exp2=remove_white_spaces(exp));
