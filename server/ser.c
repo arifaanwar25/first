@@ -62,6 +62,7 @@ int main(void)
     
     // Respond to client:DO THE EVALUATION
     client_message1=remove_white_spaces(client_message);
+    printf("%s",client_message);
     int r=evaluate(client_message1);
     printf("%d \n",r);
     

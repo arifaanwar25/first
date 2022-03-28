@@ -57,6 +57,7 @@ int main(void)
         printf("Error while receiving server's msg\n");
         return -1;
     }
+    printf("for git");
 	printf("exit");
     
     //printf("Server's response: %s\n",server_message);
